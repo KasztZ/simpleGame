@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.tile {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.tile.selected {
+    background: green;
+    pointer-events: none;
+}
